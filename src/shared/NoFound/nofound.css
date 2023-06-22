@@ -1,0 +1,10 @@
+.noFound {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.noFound > div {
+  font-size: 40px;
+  font-weight: bold;
+}

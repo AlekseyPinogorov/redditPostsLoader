@@ -1,0 +1,68 @@
+
+.text {
+  margin-bottom: 11px;
+}
+
+.username {
+  display: inline-block;
+  color: var(--orange);
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 5px;
+}
+
+
+.comment {
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 44px;
+}
+
+.comment::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 50px;
+  width: 3px;
+  height: calc(100% - 50px);
+  background-color: var(--greyD9);
+}
+
+.createdAt, .createdAt span {
+  color: var(--grey99);
+  margin-right: 4px;
+}
+
+.userWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.avatar {
+  margin-right: 7px;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.descr {
+  font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: var(--black);
+background-color: var(--greyD9);
+padding: 2px 7px;
+}
+
+.commentsItem {
+  margin-bottom: 0;
+}
+
+.commentsEmpty {
+  padding: 40px;
+  text-align: center;
+}

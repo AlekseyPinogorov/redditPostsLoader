@@ -1,0 +1,14 @@
+.arrowWrapper {
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.up {
+  margin-bottom: 10px;
+}
+
+.down {
+  margin-bottom: 0px;
+}

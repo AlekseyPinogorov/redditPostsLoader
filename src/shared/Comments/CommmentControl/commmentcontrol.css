@@ -1,0 +1,17 @@
+.controlWrapper {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.elem > button {
+  display: flex;
+  align-items: center;
+}
+
+.elem:not(:last-child) {
+  margin-right: 27px;
+}
+
+.elem > button > svg {
+  margin-right: 6px;
+}
